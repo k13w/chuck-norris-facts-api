@@ -14,4 +14,4 @@ import { FactModule } from './fact.module';
       FactModule,
     ],
 })
-export class AppModule { }
+export class AppModule {}

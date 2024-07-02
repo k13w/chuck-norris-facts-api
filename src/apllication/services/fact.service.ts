@@ -6,7 +6,6 @@ export class FactService {
   async getFact(): Promise<FactResponse> {
     try {
       const response = await fetch("https://api.chucknorris.io/jokes/random");
-      console.log(response)
       if (!response.ok) {
         throw new Error(`Error fetching fact: ${response.statusText}`);
       }
